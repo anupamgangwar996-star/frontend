@@ -528,7 +528,7 @@ export default function AboutPage() {
                 {
                   name: "Sarah Johnson",
                   role: "CEO & Co-founder",
-                  image: "SJ",
+                  
                   quote:
                     "Revolutionizing the way people find their dream careers",
                   image:
@@ -537,7 +537,7 @@ export default function AboutPage() {
                 {
                   name: "Michael Chen",
                   role: "CTO",
-                  image: "MC",
+                  
                   quote:
                     "Leveraging technology to create seamless job-matching experiences",
                   image:
@@ -546,7 +546,7 @@ export default function AboutPage() {
                 {
                   name: "Emily Rodriguez",
                   role: "Head of Product",
-                  image: "ER",
+                  
                   quote:
                     "Designing intuitive solutions for complex career challenges",
                   image:
@@ -555,7 +555,7 @@ export default function AboutPage() {
                 {
                   name: "David Kim",
                   role: "Head of Marketing",
-                  image: "DK",
+                  
                   quote: "Connecting millions to opportunities that matter",
                   image:
                     "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -563,7 +563,7 @@ export default function AboutPage() {
                 {
                   name: "Olivia Patel",
                   role: "Head of Customer Success",
-                  image: "OP",
+                  
                   quote: "Ensuring every user interaction exceeds expectations",
                   image:
                     "https://images.unsplash.com/photo-1609010697446-11f2155278f0?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -571,7 +571,7 @@ export default function AboutPage() {
                 {
                   name: "Alex Thompson",
                   role: "Head of HR",
-                  image: "AT",
+                  
                   quote: "Building a culture of innovation and inclusivity",
                   image:
                     "https://images.unsplash.com/photo-1615702669705-0d3002c6801c?q=80&w=1321&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
