@@ -111,6 +111,18 @@ const jobTrends = [
 
 export default function FindJobs() {
   const [selectedJob, setSelectedJob] = useState(jobs[0]);
+  useEffect(() => {
+    fetch('https://backend-1-h0pv.onrender.com/api/jobs')
+      .then(res => res.json())
+      .then(data => {
+        setJobs(data);
+        setSelectedJob(data[0] || null);
+      })
+      .catch(err => {
+        console.error('Error fetching jobs:', err);
+      });
+  }, []);
+  if (!selectedJob) return <div>Loading jobs...</div>;
 
   return (
     <div className="flex min-h-screen flex-col bg-zinc-50 dark:bg-zinc-900">
